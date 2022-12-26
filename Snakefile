@@ -7,10 +7,11 @@ output_dir = "../../output_2022"
 
 outcome_column = tasks.outcome_column.values
 
-R_LIBS = "/net/topmed2/working/jweinstk/count_singletons/new_drivers/somatic_was/scripts/somaticWas/renv/library/R-3.6/x86_64-pc-linux-gnu/"
+#R_LIBS = "/net/topmed2/working/jweinstk/count_singletons/new_drivers/somatic_was/scripts/somaticWas/renv/library/R-3.6/x86_64-pc-linux-gnu/"
+R_LIBS = "/net/topmed2/working/jweinstk/count_singletons/new_drivers/somatic_was/scripts/somaticWas/renv/library/R-4.1/x86_64-pc-linux-gnu/"
 slurm_template = "/net/topmed2/working/jweinstk/count_singletons/new_drivers/somatic_was/scripts/somaticWas/batchtools.slurm.tmpl"
 
-n_job_array = 300
+n_job_array = 110
 
 rule all:
     input:

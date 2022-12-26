@@ -1,3 +1,5 @@
+renv::load("../somaticWas")
+
 library("tibble")
 library("dplyr")
 library("purrr")
